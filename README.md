@@ -9,6 +9,11 @@
 <p align="center">
 <img src ="./arch.png">
 </p>
+<p align = "center">
+<i>架构图</i>
+</p>
+
+由图可知，FPGA作为网络和Host主机之间的中间件，直接处理特定的KV操作网络包，减少存储过程中CPU的使用。
 
 ## Design
 
