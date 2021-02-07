@@ -1,6 +1,6 @@
 # FPGA-based data migration of network access
 
-## Introduction
+## Introduction & Scenario
 
 将KV存储卸载到FPGA网卡，客户端可使用定制FPGA和RDMA直接访问服务器内存资源。旨在为分布式KV存储提供硬件协同辅助，通过FPGA加速远端内存访问，降低管理开销和访存延迟。
 
@@ -29,5 +29,10 @@
 ## Implementation
 
 由于环境和时间限制，使用模拟的方式进行测试，仅实现FPGA模块内的上述功能，实际不与网络和主机交互。
+
+## Plan
+
+第一&二周：利用HLS实现上述设计
+第三周：   通过模拟测试验证上述功能
 
 
